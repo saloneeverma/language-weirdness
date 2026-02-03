@@ -1,0 +1,1538 @@
+{
+  "1A Consonant Inventories": {
+    "total_responses": 563,
+    "unique_values": 5,
+    "most_common": [
+      "3 Average",
+      201
+    ]
+  },
+  "2A Vowel Quality Inventories": {
+    "total_responses": 564,
+    "unique_values": 3,
+    "most_common": [
+      "2 Average (5-6)",
+      287
+    ]
+  },
+  "3A Consonant-Vowel Ratio": {
+    "total_responses": 564,
+    "unique_values": 5,
+    "most_common": [
+      "3 Average",
+      234
+    ]
+  },
+  "4A Voicing in Plosives and Fricatives": {
+    "total_responses": 567,
+    "unique_values": 4,
+    "most_common": [
+      "2 In plosives alone",
+      189
+    ]
+  },
+  "5A Voicing and Gaps in Plosive Systems": {
+    "total_responses": 567,
+    "unique_values": 5,
+    "most_common": [
+      "2 None missing in /p t k b d g/",
+      255
+    ]
+  },
+  "6A Uvular Consonants": {
+    "total_responses": 567,
+    "unique_values": 4,
+    "most_common": [
+      "1 None",
+      470
+    ]
+  },
+  "7A Glottalized Consonants": {
+    "total_responses": 567,
+    "unique_values": 8,
+    "most_common": [
+      "1 No glottalized consonants",
+      409
+    ]
+  },
+  "8A Lateral Consonants": {
+    "total_responses": 567,
+    "unique_values": 5,
+    "most_common": [
+      "2 /l/, no obstruent laterals",
+      388
+    ]
+  },
+  "9A The Velar Nasal": {
+    "total_responses": 469,
+    "unique_values": 3,
+    "most_common": [
+      "3 No velar nasal",
+      235
+    ]
+  },
+  "10A Vowel Nasalization": {
+    "total_responses": 244,
+    "unique_values": 2,
+    "most_common": [
+      "2 Contrast absent",
+      180
+    ]
+  },
+  "11A Front Rounded Vowels": {
+    "total_responses": 562,
+    "unique_values": 4,
+    "most_common": [
+      "1 None",
+      525
+    ]
+  },
+  "12A Syllable Structure": {
+    "total_responses": 486,
+    "unique_values": 3,
+    "most_common": [
+      "2 Moderately complex",
+      274
+    ]
+  },
+  "13A Tone": {
+    "total_responses": 527,
+    "unique_values": 3,
+    "most_common": [
+      "1 No tones",
+      307
+    ]
+  },
+  "14A Fixed Stress Locations": {
+    "total_responses": 502,
+    "unique_values": 7,
+    "most_common": [
+      "1 No fixed stress",
+      220
+    ]
+  },
+  "15A Weight-Sensitive Stress": {
+    "total_responses": 500,
+    "unique_values": 8,
+    "most_common": [
+      "8 Fixed stress (no weight-sensitivity)",
+      281
+    ]
+  },
+  "16A Weight Factors in Weight-Sensitive Stress Systems": {
+    "total_responses": 500,
+    "unique_values": 7,
+    "most_common": [
+      "1 No weight",
+      261
+    ]
+  },
+  "17A Rhythm Types": {
+    "total_responses": 323,
+    "unique_values": 5,
+    "most_common": [
+      "1 Trochaic",
+      153
+    ]
+  },
+  "18A Absence of Common Consonants": {
+    "total_responses": 567,
+    "unique_values": 6,
+    "most_common": [
+      "1 All present",
+      503
+    ]
+  },
+  "19A Presence of Uncommon Consonants": {
+    "total_responses": 567,
+    "unique_values": 7,
+    "most_common": [
+      "1 None",
+      449
+    ]
+  },
+  "20A Fusion of Selected Inflectional Formatives": {
+    "total_responses": 165,
+    "unique_values": 7,
+    "most_common": [
+      "1 Exclusively concatenative",
+      125
+    ]
+  },
+  "21A Exponence of Selected Inflectional Formatives": {
+    "total_responses": 162,
+    "unique_values": 5,
+    "most_common": [
+      "5 No case",
+      75
+    ]
+  },
+  "22A Inflectional Synthesis of the Verb": {
+    "total_responses": 145,
+    "unique_values": 7,
+    "most_common": [
+      "3 4-5 categories per word",
+      52
+    ]
+  },
+  "23A Locus of Marking in the Clause": {
+    "total_responses": 236,
+    "unique_values": 5,
+    "most_common": [
+      "1 Head marking",
+      71
+    ]
+  },
+  "24A Locus of Marking in Possessive Noun Phrases": {
+    "total_responses": 236,
+    "unique_values": 5,
+    "most_common": [
+      "2 Dependent marking",
+      98
+    ]
+  },
+  "25A Locus of Marking: Whole-language Typology": {
+    "total_responses": 236,
+    "unique_values": 5,
+    "most_common": [
+      "5 Inconsistent or other",
+      121
+    ]
+  },
+  "26A Prefixing vs. Suffixing in Inflectional Morphology": {
+    "total_responses": 969,
+    "unique_values": 6,
+    "most_common": [
+      "2 Strongly suffixing",
+      406
+    ]
+  },
+  "27A Reduplication": {
+    "total_responses": 368,
+    "unique_values": 3,
+    "most_common": [
+      "1 Productive full and partial reduplication",
+      278
+    ]
+  },
+  "28A Case Syncretism": {
+    "total_responses": 198,
+    "unique_values": 4,
+    "most_common": [
+      "1 No case marking",
+      123
+    ]
+  },
+  "29A Syncretism in Verbal Person/Number Marking": {
+    "total_responses": 198,
+    "unique_values": 3,
+    "most_common": [
+      "3 Not syncretic",
+      81
+    ]
+  },
+  "30A Number of Genders": {
+    "total_responses": 257,
+    "unique_values": 5,
+    "most_common": [
+      "1 None",
+      145
+    ]
+  },
+  "31A Sex-based and Non-sex-based Gender Systems": {
+    "total_responses": 257,
+    "unique_values": 3,
+    "most_common": [
+      "1 No gender",
+      145
+    ]
+  },
+  "32A Systems of Gender Assignment": {
+    "total_responses": 257,
+    "unique_values": 3,
+    "most_common": [
+      "1 No gender",
+      145
+    ]
+  },
+  "33A Coding of Nominal Plurality": {
+    "total_responses": 1066,
+    "unique_values": 9,
+    "most_common": [
+      "2 Plural suffix",
+      513
+    ]
+  },
+  "34A Occurrence of Nominal Plurality": {
+    "total_responses": 291,
+    "unique_values": 6,
+    "most_common": [
+      "6 All nouns, always obligatory",
+      133
+    ]
+  },
+  "35A Plurality in Independent Personal Pronouns": {
+    "total_responses": 261,
+    "unique_values": 8,
+    "most_common": [
+      "4 Person-number stem",
+      114
+    ]
+  },
+  "36A The Associative Plural": {
+    "total_responses": 236,
+    "unique_values": 4,
+    "most_common": [
+      "1 Associative same as additive plural",
+      104
+    ]
+  },
+  "37A Definite Articles": {
+    "total_responses": 620,
+    "unique_values": 5,
+    "most_common": [
+      "1 Definite word distinct from demonstrative",
+      216
+    ]
+  },
+  "38A Indefinite Articles": {
+    "total_responses": 534,
+    "unique_values": 5,
+    "most_common": [
+      "5 No definite or indefinite article",
+      198
+    ]
+  },
+  "39A Inclusive/Exclusive Distinction in Independent Pronouns": {
+    "total_responses": 200,
+    "unique_values": 5,
+    "most_common": [
+      "3 No inclusive/exclusive",
+      120
+    ]
+  },
+  "40A Inclusive/Exclusive Distinction in Verbal Inflection": {
+    "total_responses": 200,
+    "unique_values": 5,
+    "most_common": [
+      "3 No inclusive/exclusive",
+      79
+    ]
+  },
+  "41A Distance Contrasts in Demonstratives": {
+    "total_responses": 234,
+    "unique_values": 5,
+    "most_common": [
+      "2 Two-way contrast",
+      127
+    ]
+  },
+  "42A Pronominal and Adnominal Demonstratives": {
+    "total_responses": 201,
+    "unique_values": 3,
+    "most_common": [
+      "1 Identical",
+      143
+    ]
+  },
+  "43A Third Person Pronouns and Demonstratives": {
+    "total_responses": 225,
+    "unique_values": 6,
+    "most_common": [
+      "1 Unrelated",
+      100
+    ]
+  },
+  "44A Gender Distinctions in Independent Personal Pronouns": {
+    "total_responses": 378,
+    "unique_values": 6,
+    "most_common": [
+      "6 No gender distinctions",
+      254
+    ]
+  },
+  "45A Politeness Distinctions in Pronouns": {
+    "total_responses": 207,
+    "unique_values": 4,
+    "most_common": [
+      "1 No politeness distinction",
+      136
+    ]
+  },
+  "46A Indefinite Pronouns": {
+    "total_responses": 326,
+    "unique_values": 5,
+    "most_common": [
+      "1 Interrogative-based",
+      194
+    ]
+  },
+  "47A Intensifiers and Reflexive Pronouns": {
+    "total_responses": 168,
+    "unique_values": 2,
+    "most_common": [
+      "1 Identical",
+      94
+    ]
+  },
+  "48A Person Marking on Adpositions": {
+    "total_responses": 378,
+    "unique_values": 4,
+    "most_common": [
+      "2 No person marking",
+      209
+    ]
+  },
+  "49A Number of Cases": {
+    "total_responses": 261,
+    "unique_values": 9,
+    "most_common": [
+      "1 No morphological case-marking",
+      100
+    ]
+  },
+  "50A Asymmetrical Case-Marking": {
+    "total_responses": 261,
+    "unique_values": 6,
+    "most_common": [
+      "1 No case-marking",
+      81
+    ]
+  },
+  "51A Position of Case Affixes": {
+    "total_responses": 1031,
+    "unique_values": 9,
+    "most_common": [
+      "1 Case suffixes",
+      452
+    ]
+  },
+  "52A Comitatives and Instrumentals": {
+    "total_responses": 322,
+    "unique_values": 3,
+    "most_common": [
+      "2 Differentiation",
+      213
+    ]
+  },
+  "53A Ordinal Numerals": {
+    "total_responses": 321,
+    "unique_values": 8,
+    "most_common": [
+      "6 First, two-th, three-th",
+      110
+    ]
+  },
+  "54A Distributive Numerals": {
+    "total_responses": 251,
+    "unique_values": 7,
+    "most_common": [
+      "2 Marked by reduplication",
+      85
+    ]
+  },
+  "55A Numeral Classifiers": {
+    "total_responses": 400,
+    "unique_values": 3,
+    "most_common": [
+      "1 Absent",
+      260
+    ]
+  },
+  "56A Conjunctions and Universal Quantifiers": {
+    "total_responses": 116,
+    "unique_values": 3,
+    "most_common": [
+      "3 Formally similar, with interrogative",
+      43
+    ]
+  },
+  "57A Position of Pronominal Possessive Affixes": {
+    "total_responses": 902,
+    "unique_values": 4,
+    "most_common": [
+      "2 Possessive suffixes",
+      355
+    ]
+  },
+  "58A Obligatory Possessive Inflection": {
+    "total_responses": 244,
+    "unique_values": 2,
+    "most_common": [
+      "2 Absent",
+      201
+    ]
+  },
+  "59A Possessive Classification": {
+    "total_responses": 243,
+    "unique_values": 4,
+    "most_common": [
+      "1 No possessive classification",
+      125
+    ]
+  },
+  "60A Genitives, Adjectives and Relative Clauses": {
+    "total_responses": 138,
+    "unique_values": 6,
+    "most_common": [
+      "6 Highly differentiated",
+      77
+    ]
+  },
+  "61A Adjectives without Nouns": {
+    "total_responses": 124,
+    "unique_values": 7,
+    "most_common": [
+      "2 Without marking",
+      73
+    ]
+  },
+  "62A Action Nominal Constructions": {
+    "total_responses": 168,
+    "unique_values": 8,
+    "most_common": [
+      "8 No action nominals",
+      42
+    ]
+  },
+  "63A Noun Phrase Conjunction": {
+    "total_responses": 234,
+    "unique_values": 2,
+    "most_common": [
+      "1 'And' different from 'with'",
+      131
+    ]
+  },
+  "64A Nominal and Verbal Conjunction": {
+    "total_responses": 301,
+    "unique_values": 3,
+    "most_common": [
+      "1 Identity",
+      161
+    ]
+  },
+  "65A Perfective/Imperfective Aspect": {
+    "total_responses": 222,
+    "unique_values": 2,
+    "most_common": [
+      "2 No grammatical marking",
+      121
+    ]
+  },
+  "66A The Past Tense": {
+    "total_responses": 222,
+    "unique_values": 4,
+    "most_common": [
+      "1 Present, no remoteness distinctions",
+      94
+    ]
+  },
+  "67A The Future Tense": {
+    "total_responses": 222,
+    "unique_values": 2,
+    "most_common": [
+      "2 No inflectional future",
+      112
+    ]
+  },
+  "68A The Perfect": {
+    "total_responses": 222,
+    "unique_values": 4,
+    "most_common": [
+      "4 No perfect",
+      114
+    ]
+  },
+  "69A Position of Tense-Aspect Affixes": {
+    "total_responses": 1131,
+    "unique_values": 5,
+    "most_common": [
+      "2 Tense-aspect suffixes",
+      667
+    ]
+  },
+  "70A The Morphological Imperative": {
+    "total_responses": 547,
+    "unique_values": 5,
+    "most_common": [
+      "1 Second singular and second plural",
+      292
+    ]
+  },
+  "71A The Prohibitive": {
+    "total_responses": 495,
+    "unique_values": 4,
+    "most_common": [
+      "2 Normal imperative + special negative",
+      182
+    ]
+  },
+  "72A Imperative-Hortative Systems": {
+    "total_responses": 375,
+    "unique_values": 4,
+    "most_common": [
+      "4 Neither type of system",
+      201
+    ]
+  },
+  "73A The Optative": {
+    "total_responses": 319,
+    "unique_values": 2,
+    "most_common": [
+      "2 Inflectional optative absent",
+      271
+    ]
+  },
+  "74A Situational Possibility": {
+    "total_responses": 234,
+    "unique_values": 3,
+    "most_common": [
+      "2 Verbal constructions",
+      158
+    ]
+  },
+  "75A Epistemic Possibility": {
+    "total_responses": 240,
+    "unique_values": 3,
+    "most_common": [
+      "3 Other",
+      91
+    ]
+  },
+  "76A Overlap between Situational and Epistemic Modal Marking": {
+    "total_responses": 207,
+    "unique_values": 3,
+    "most_common": [
+      "3 No overlap",
+      105
+    ]
+  },
+  "77A Semantic Distinctions of Evidentiality": {
+    "total_responses": 418,
+    "unique_values": 3,
+    "most_common": [
+      "1 No grammatical evidentials",
+      181
+    ]
+  },
+  "78A Coding of Evidentiality": {
+    "total_responses": 418,
+    "unique_values": 6,
+    "most_common": [
+      "1 No grammatical evidentials",
+      181
+    ]
+  },
+  "79A Suppletion According to Tense and Aspect": {
+    "total_responses": 193,
+    "unique_values": 4,
+    "most_common": [
+      "4 None",
+      123
+    ]
+  },
+  "80A Verbal Number and Suppletion": {
+    "total_responses": 193,
+    "unique_values": 5,
+    "most_common": [
+      "1 None",
+      159
+    ]
+  },
+  "81A Order of Subject, Object and Verb": {
+    "total_responses": 1377,
+    "unique_values": 7,
+    "most_common": [
+      "1 SOV",
+      565
+    ]
+  },
+  "82A Order of Subject and Verb": {
+    "total_responses": 1497,
+    "unique_values": 3,
+    "most_common": [
+      "1 SV",
+      1193
+    ]
+  },
+  "83A Order of Object and Verb": {
+    "total_responses": 1519,
+    "unique_values": 3,
+    "most_common": [
+      "1 OV",
+      713
+    ]
+  },
+  "84A Order of Object, Oblique, and Verb": {
+    "total_responses": 500,
+    "unique_values": 6,
+    "most_common": [
+      "1 VOX",
+      210
+    ]
+  },
+  "85A Order of Adposition and Noun Phrase": {
+    "total_responses": 1183,
+    "unique_values": 5,
+    "most_common": [
+      "1 Postpositions",
+      576
+    ]
+  },
+  "86A Order of Genitive and Noun": {
+    "total_responses": 1249,
+    "unique_values": 3,
+    "most_common": [
+      "1 Genitive-Noun",
+      685
+    ]
+  },
+  "87A Order of Adjective and Noun": {
+    "total_responses": 1366,
+    "unique_values": 4,
+    "most_common": [
+      "2 Noun-Adjective",
+      878
+    ]
+  },
+  "88A Order of Demonstrative and Noun": {
+    "total_responses": 1224,
+    "unique_values": 6,
+    "most_common": [
+      "2 Noun-Demonstrative",
+      561
+    ]
+  },
+  "89A Order of Numeral and Noun": {
+    "total_responses": 1153,
+    "unique_values": 4,
+    "most_common": [
+      "2 Noun-Numeral",
+      607
+    ]
+  },
+  "90A Order of Relative Clause and Noun": {
+    "total_responses": 824,
+    "unique_values": 7,
+    "most_common": [
+      "1 Noun-Relative clause",
+      579
+    ]
+  },
+  "91A Order of Degree Word and Adjective": {
+    "total_responses": 481,
+    "unique_values": 3,
+    "most_common": [
+      "1 Degree word-Adjective",
+      227
+    ]
+  },
+  "92A Position of Polar Question Particles": {
+    "total_responses": 884,
+    "unique_values": 6,
+    "most_common": [
+      "6 No question particle",
+      355
+    ]
+  },
+  "93A Position of Interrogative Phrases in Content Questions": {
+    "total_responses": 902,
+    "unique_values": 3,
+    "most_common": [
+      "2 Not initial interrogative phrase",
+      615
+    ]
+  },
+  "94A Order of Adverbial Subordinator and Clause": {
+    "total_responses": 659,
+    "unique_values": 5,
+    "most_common": [
+      "1 Initial subordinator word",
+      398
+    ]
+  },
+  "95A Relationship between the Order of Object and Verb and the Order of Adposition and Noun Phrase": {
+    "total_responses": 1142,
+    "unique_values": 5,
+    "most_common": [
+      "1 OV and Postpositions",
+      472
+    ]
+  },
+  "96A Relationship between the Order of Object and Verb and the Order of Relative Clause and Noun": {
+    "total_responses": 879,
+    "unique_values": 5,
+    "most_common": [
+      "4 VO and NRel",
+      416
+    ]
+  },
+  "97A Relationship between the Order of Object and Verb and the Order of Adjective and Noun": {
+    "total_responses": 1316,
+    "unique_values": 5,
+    "most_common": [
+      "4 VO and NAdj",
+      456
+    ]
+  },
+  "98A Alignment of Case Marking of Full Noun Phrases": {
+    "total_responses": 190,
+    "unique_values": 6,
+    "most_common": [
+      "1 Neutral",
+      98
+    ]
+  },
+  "99A Alignment of Case Marking of Pronouns": {
+    "total_responses": 172,
+    "unique_values": 7,
+    "most_common": [
+      "1 Neutral",
+      79
+    ]
+  },
+  "100A Alignment of Verbal Person Marking": {
+    "total_responses": 380,
+    "unique_values": 6,
+    "most_common": [
+      "2 Accusative",
+      212
+    ]
+  },
+  "101A Expression of Pronominal Subjects": {
+    "total_responses": 711,
+    "unique_values": 6,
+    "most_common": [
+      "2 Subject affixes on verb",
+      437
+    ]
+  },
+  "102A Verbal Person Marking": {
+    "total_responses": 378,
+    "unique_values": 5,
+    "most_common": [
+      "5 Both the A and P arguments",
+      193
+    ]
+  },
+  "103A Third Person Zero of Verbal Person Marking": {
+    "total_responses": 380,
+    "unique_values": 6,
+    "most_common": [
+      "2 No zero realization",
+      181
+    ]
+  },
+  "104A Order of Person Markers on the Verb": {
+    "total_responses": 379,
+    "unique_values": 5,
+    "most_common": [
+      "1 A and P do not or do not both occur on the verb",
+      187
+    ]
+  },
+  "105A Ditransitive Constructions: The Verb 'Give'": {
+    "total_responses": 378,
+    "unique_values": 4,
+    "most_common": [
+      "1 Indirect-object construction",
+      189
+    ]
+  },
+  "106A Reciprocal Constructions": {
+    "total_responses": 175,
+    "unique_values": 4,
+    "most_common": [
+      "2 Distinct from reflexive",
+      99
+    ]
+  },
+  "107A Passive Constructions": {
+    "total_responses": 373,
+    "unique_values": 2,
+    "most_common": [
+      "2 Absent",
+      211
+    ]
+  },
+  "108A Antipassive Constructions": {
+    "total_responses": 194,
+    "unique_values": 3,
+    "most_common": [
+      "3 No antipassive",
+      146
+    ]
+  },
+  "109A Applicative Constructions": {
+    "total_responses": 183,
+    "unique_values": 8,
+    "most_common": [
+      "8 No applicative construction",
+      100
+    ]
+  },
+  "110A Periphrastic Causative Constructions": {
+    "total_responses": 118,
+    "unique_values": 3,
+    "most_common": [
+      "2 Purposive but no sequential",
+      68
+    ]
+  },
+  "111A Nonperiphrastic Causative Constructions": {
+    "total_responses": 310,
+    "unique_values": 4,
+    "most_common": [
+      "2 Morphological but no compound",
+      254
+    ]
+  },
+  "112A Negative Morphemes": {
+    "total_responses": 1157,
+    "unique_values": 6,
+    "most_common": [
+      "2 Negative particle",
+      502
+    ]
+  },
+  "113A Symmetric and Asymmetric Standard Negation": {
+    "total_responses": 297,
+    "unique_values": 3,
+    "most_common": [
+      "3 Both",
+      130
+    ]
+  },
+  "114A Subtypes of Asymmetric Standard Negation": {
+    "total_responses": 297,
+    "unique_values": 7,
+    "most_common": [
+      "7 Non-assignable",
+      114
+    ]
+  },
+  "115A Negative Indefinite Pronouns and Predicate Negation": {
+    "total_responses": 206,
+    "unique_values": 4,
+    "most_common": [
+      "1 Predicate negation also present",
+      170
+    ]
+  },
+  "116A Polar Questions": {
+    "total_responses": 955,
+    "unique_values": 7,
+    "most_common": [
+      "1 Question particle",
+      585
+    ]
+  },
+  "117A Predicative Possession": {
+    "total_responses": 240,
+    "unique_values": 5,
+    "most_common": [
+      "5 'Have'",
+      63
+    ]
+  },
+  "118A Predicative Adjectives": {
+    "total_responses": 386,
+    "unique_values": 3,
+    "most_common": [
+      "1 Verbal encoding",
+      151
+    ]
+  },
+  "119A Nominal and Locational Predication": {
+    "total_responses": 386,
+    "unique_values": 2,
+    "most_common": [
+      "1 Different",
+      269
+    ]
+  },
+  "120A Zero Copula for Predicate Nominals": {
+    "total_responses": 386,
+    "unique_values": 2,
+    "most_common": [
+      "1 Impossible",
+      211
+    ]
+  },
+  "121A Comparative Constructions": {
+    "total_responses": 167,
+    "unique_values": 4,
+    "most_common": [
+      "1 Locational",
+      78
+    ]
+  },
+  "122A Relativization on Subjects": {
+    "total_responses": 166,
+    "unique_values": 4,
+    "most_common": [
+      "4 Gap",
+      125
+    ]
+  },
+  "123A Relativization on Obliques": {
+    "total_responses": 112,
+    "unique_values": 5,
+    "most_common": [
+      "4 Gap",
+      55
+    ]
+  },
+  "124A 'Want' Complement Subjects": {
+    "total_responses": 283,
+    "unique_values": 5,
+    "most_common": [
+      "1 Subject is left implicit",
+      144
+    ]
+  },
+  "125A Purpose Clauses": {
+    "total_responses": 170,
+    "unique_values": 3,
+    "most_common": [
+      "3 Deranked",
+      102
+    ]
+  },
+  "126A 'When' Clauses": {
+    "total_responses": 174,
+    "unique_values": 3,
+    "most_common": [
+      "1 Balanced",
+      84
+    ]
+  },
+  "127A Reason Clauses": {
+    "total_responses": 169,
+    "unique_values": 3,
+    "most_common": [
+      "1 Balanced",
+      90
+    ]
+  },
+  "128A Utterance Complement Clauses": {
+    "total_responses": 143,
+    "unique_values": 3,
+    "most_common": [
+      "1 Balanced",
+      114
+    ]
+  },
+  "129A Hand and Arm": {
+    "total_responses": 617,
+    "unique_values": 2,
+    "most_common": [
+      "2 Different",
+      389
+    ]
+  },
+  "130A Finger and Hand": {
+    "total_responses": 593,
+    "unique_values": 2,
+    "most_common": [
+      "2 Different",
+      521
+    ]
+  },
+  "131A Numeral Bases": {
+    "total_responses": 196,
+    "unique_values": 6,
+    "most_common": [
+      "1 Decimal",
+      125
+    ]
+  },
+  "132A Number of Non-Derived Basic Colour Categories": {
+    "total_responses": 119,
+    "unique_values": 7,
+    "most_common": [
+      "5 5",
+      56
+    ]
+  },
+  "133A Number of Basic Colour Categories": {
+    "total_responses": 119,
+    "unique_values": 7,
+    "most_common": [
+      "3 6-6.5",
+      34
+    ]
+  },
+  "134A Green and Blue": {
+    "total_responses": 120,
+    "unique_values": 7,
+    "most_common": [
+      "2 Green/blue",
+      68
+    ]
+  },
+  "135A Red and Yellow": {
+    "total_responses": 120,
+    "unique_values": 5,
+    "most_common": [
+      "1 Red vs. yellow",
+      98
+    ]
+  },
+  "136A M-T Pronouns": {
+    "total_responses": 230,
+    "unique_values": 3,
+    "most_common": [
+      "1 No M-T pronouns",
+      200
+    ]
+  },
+  "137A N-M Pronouns": {
+    "total_responses": 230,
+    "unique_values": 3,
+    "most_common": [
+      "1 No N-M pronouns",
+      194
+    ]
+  },
+  "138A Tea": {
+    "total_responses": 230,
+    "unique_values": 3,
+    "most_common": [
+      "1 Words derived from Sinitic cha",
+      109
+    ]
+  },
+  "139A Irregular Negatives in Sign Languages": {
+    "total_responses": 35,
+    "unique_values": 4,
+    "most_common": [
+      "4 Many (more than 5)",
+      21
+    ]
+  },
+  "140A Question Particles in Sign Languages": {
+    "total_responses": 38,
+    "unique_values": 3,
+    "most_common": [
+      "1 None",
+      25
+    ]
+  },
+  "141A Writing Systems": {
+    "total_responses": 6,
+    "unique_values": 2,
+    "most_common": [
+      "3 Alphasyllabic",
+      4
+    ]
+  },
+  "142A Para-Linguistic Usages of Clicks": {
+    "total_responses": 143,
+    "unique_values": 3,
+    "most_common": [
+      "2 Affective meanings",
+      71
+    ]
+  },
+  "143F Postverbal Negative Morphemes": {
+    "total_responses": 1324,
+    "unique_values": 4,
+    "most_common": [
+      "4 None",
+      711
+    ]
+  },
+  "90B Prenominal relative clauses": {
+    "total_responses": 191,
+    "unique_values": 5,
+    "most_common": [
+      "1 Relative clause-Noun (RelN) dominant",
+      141
+    ]
+  },
+  "144Y The Position of Negative Morphemes in Object-Initial Languages": {
+    "total_responses": 16,
+    "unique_values": 11,
+    "most_common": [
+      "4 O[V-Neg]S",
+      4
+    ]
+  },
+  "90C Postnominal relative clauses": {
+    "total_responses": 620,
+    "unique_values": 4,
+    "most_common": [
+      "1 Noun-Relative clause (NRel) dominant",
+      579
+    ]
+  },
+  "144P NegSOV Order": {
+    "total_responses": 408,
+    "unique_values": 4,
+    "most_common": [
+      "4 No NegSOV",
+      381
+    ]
+  },
+  "144J SVNegO Order": {
+    "total_responses": 446,
+    "unique_values": 7,
+    "most_common": [
+      "7 No SVNegO",
+      373
+    ]
+  },
+  "144N Obligatory Double Negation in SOV languages": {
+    "total_responses": 45,
+    "unique_values": 18,
+    "most_common": [
+      "6 SO[Neg-V-Neg]",
+      13
+    ]
+  },
+  "144S SOVNeg Order": {
+    "total_responses": 489,
+    "unique_values": 11,
+    "most_common": [
+      "11 NoSOVNeg",
+      216
+    ]
+  },
+  "144X Verb-Initial with Clause-Final Negative": {
+    "total_responses": 151,
+    "unique_values": 4,
+    "most_common": [
+      "4 No clause-final neg",
+      144
+    ]
+  },
+  "144A Position of Negative Word With Respect to Subject, Object, and Verb": {
+    "total_responses": 1189,
+    "unique_values": 21,
+    "most_common": [
+      "20 MorphNeg",
+      333
+    ]
+  },
+  "90G Double-headed relative clauses": {
+    "total_responses": 5,
+    "unique_values": 4,
+    "most_common": [
+      "4 Double-headed as nondominant type",
+      2
+    ]
+  },
+  "90E Correlative relative clauses": {
+    "total_responses": 23,
+    "unique_values": 7,
+    "most_common": [
+      "1 Correlative relative clause dominant",
+      7
+    ]
+  },
+  "144V Verb-Initial with Preverbal Negative": {
+    "total_responses": 152,
+    "unique_values": 9,
+    "most_common": [
+      "1 Separate word, no double negation\tWord&NoDoubleNeg",
+      117
+    ]
+  },
+  "144I SNegVO Order": {
+    "total_responses": 421,
+    "unique_values": 8,
+    "most_common": [
+      "8 No SNegVO",
+      142
+    ]
+  },
+  "144R SONegV Order": {
+    "total_responses": 411,
+    "unique_values": 8,
+    "most_common": [
+      "8 No SONegV",
+      238
+    ]
+  },
+  "143B Obligatory Double Negation": {
+    "total_responses": 119,
+    "unique_values": 16,
+    "most_common": [
+      "1 NegVNeg",
+      35
+    ]
+  },
+  "144M Multiple Negative Constructions in SOV Languages": {
+    "total_responses": 54,
+    "unique_values": 27,
+    "most_common": [
+      "5 SOVNeg/SO[V-Neg]",
+      8
+    ]
+  },
+  "144U Double negation in verb-initial languages": {
+    "total_responses": 17,
+    "unique_values": 16,
+    "most_common": [
+      "13 VS&VO&Neg[(Neg-)V]",
+      2
+    ]
+  },
+  "144G Optional Double Negation in SVO languages": {
+    "total_responses": 35,
+    "unique_values": 18,
+    "most_common": [
+      "2 S(Neg)VONeg",
+      8
+    ]
+  },
+  "144K SVONeg Order": {
+    "total_responses": 446,
+    "unique_values": 4,
+    "most_common": [
+      "4 No SVONeg",
+      304
+    ]
+  },
+  "144B Position of negative words relative to beginning and end of clause and with respect to adjacency to verb": {
+    "total_responses": 609,
+    "unique_values": 6,
+    "most_common": [
+      "3 Immed preverbal",
+      339
+    ]
+  },
+  "144F Obligatory Double Negation in SVO languages": {
+    "total_responses": 56,
+    "unique_values": 23,
+    "most_common": [
+      "1 SNegVONeg",
+      11
+    ]
+  },
+  "90D Internally-headed relative clauses": {
+    "total_responses": 63,
+    "unique_values": 7,
+    "most_common": [
+      "1 Internally-headed relative clause dominant",
+      24
+    ]
+  },
+  "144E Multiple Negative Constructions in SVO Languages": {
+    "total_responses": 48,
+    "unique_values": 28,
+    "most_common": [
+      "1 SNegVO/SVNegO",
+      5
+    ]
+  },
+  "144D The Position of Negative Morphemes in SVO Languages": {
+    "total_responses": 463,
+    "unique_values": 15,
+    "most_common": [
+      "2 SNegVO",
+      111
+    ]
+  },
+  "81B Languages with two Dominant Orders of Subject, Object, and Verb": {
+    "total_responses": 67,
+    "unique_values": 5,
+    "most_common": [
+      "1 SOV or SVO",
+      29
+    ]
+  },
+  "143E Preverbal Negative Morphemes": {
+    "total_responses": 1324,
+    "unique_values": 4,
+    "most_common": [
+      "1 NegV",
+      681
+    ]
+  },
+  "143C Optional Double Negation": {
+    "total_responses": 81,
+    "unique_values": 23,
+    "most_common": [
+      "2 (Neg)VNeg",
+      20
+    ]
+  },
+  "90F Adjoined relative clauses": {
+    "total_responses": 10,
+    "unique_values": 2,
+    "most_common": [
+      "1 Adjoined relative clause dominant",
+      8
+    ]
+  },
+  "143A Order of Negative Morpheme and Verb": {
+    "total_responses": 1324,
+    "unique_values": 17,
+    "most_common": [
+      "1 NegV",
+      524
+    ]
+  },
+  "144W Verb-Initial with Negative that is Immediately Postverbal or between Subject and Object": {
+    "total_responses": 151,
+    "unique_values": 6,
+    "most_common": [
+      "6 None",
+      139
+    ]
+  },
+  "144O Optional Double Negation in SOV languages": {
+    "total_responses": 31,
+    "unique_values": 21,
+    "most_common": [
+      "2 S(Neg)OVNeg",
+      3
+    ]
+  },
+  "144Q SNegOV Order": {
+    "total_responses": 408,
+    "unique_values": 4,
+    "most_common": [
+      "4 No SNegOV",
+      368
+    ]
+  },
+  "144L The Position of Negative Morphemes in SOV Languages": {
+    "total_responses": 572,
+    "unique_values": 23,
+    "most_common": [
+      "6 SO[V-Neg]",
+      128
+    ]
+  },
+  "144H NegSVO Order": {
+    "total_responses": 420,
+    "unique_values": 4,
+    "most_common": [
+      "4 No NegSVO",
+      392
+    ]
+  },
+  "144C Languages with different word order in negative clauses": {
+    "total_responses": 28,
+    "unique_values": 17,
+    "most_common": [
+      "1 VSO, but NegSVO",
+      6
+    ]
+  },
+  "144T The Position of Negative Morphemes in Verb-Initial Languages": {
+    "total_responses": 152,
+    "unique_values": 23,
+    "most_common": [
+      "1 NegVSO",
+      57
+    ]
+  },
+  "143G Minor morphological means of signaling negation": {
+    "total_responses": 1324,
+    "unique_values": 4,
+    "most_common": [
+      "4 None",
+      1314
+    ]
+  },
+  "143D Optional Triple Negation": {
+    "total_responses": 6,
+    "unique_values": 6,
+    "most_common": [
+      "4 Neg[V-Neg]/NegVNeg&NegTone",
+      1
+    ]
+  },
+  "39B Inclusive/Exclusive Forms in Pama-Nyungan": {
+    "total_responses": 71,
+    "unique_values": 2,
+    "most_common": [
+      "2 Inclusive and exclusive differentiated",
+      40
+    ]
+  },
+  "137B M in Second Person Singular": {
+    "total_responses": 230,
+    "unique_values": 2,
+    "most_common": [
+      "1 No m in second person singular",
+      152
+    ]
+  },
+  "136B M in First Person Singular": {
+    "total_responses": 230,
+    "unique_values": 2,
+    "most_common": [
+      "1 No m in first person singular",
+      177
+    ]
+  },
+  "109B Other Roles of Applied Objects": {
+    "total_responses": 183,
+    "unique_values": 5,
+    "most_common": [
+      "5 No applicative construction",
+      100
+    ]
+  },
+  "10B Nasal Vowels in West Africa": {
+    "total_responses": 40,
+    "unique_values": 5,
+    "most_common": [
+      "1 no nasal vs. oral vowel contrast",
+      20
+    ]
+  },
+  "25B Zero Marking of A and P Arguments": {
+    "total_responses": 235,
+    "unique_values": 2,
+    "most_common": [
+      "2 Non-zero marking",
+      219
+    ]
+  },
+  "21B Exponence of Tense-Aspect-Mood Inflection": {
+    "total_responses": 160,
+    "unique_values": 6,
+    "most_common": [
+      "1 monoexponential TAM",
+      127
+    ]
+  },
+  "108B Productivity of the Antipassive Construction": {
+    "total_responses": 186,
+    "unique_values": 4,
+    "most_common": [
+      "4 no antipassive",
+      146
+    ]
+  },
+  "130B Cultural Categories of Languages with Identity of 'Finger' and 'Hand'": {
+    "total_responses": 72,
+    "unique_values": 3,
+    "most_common": [
+      "1 Hunter-gatherers",
+      46
+    ]
+  },
+  "58B Number of Possessive Nouns": {
+    "total_responses": 243,
+    "unique_values": 4,
+    "most_common": [
+      "1 None reported",
+      233
+    ]
+  },
+  "79B Suppletion in Imperatives and Hortatives": {
+    "total_responses": 193,
+    "unique_values": 5,
+    "most_common": [
+      "5 None (= no suppletive imperatives reported in the reference material)",
+      153
+    ]
+  }
+}

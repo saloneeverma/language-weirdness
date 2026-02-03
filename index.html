@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Weirdness Map</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .info-panel {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            max-width: 350px;
+            max-height: 90vh;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        
+        .info-panel h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .info-panel p {
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .controls {
+            margin-bottom: 20px;
+        }
+        
+        .control-group {
+            margin-bottom: 15px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #34495e;
+            font-size: 14px;
+        }
+        
+        .control-group input,
+        .control-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .stats {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        
+        .stats h3 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        
+        .stat-label {
+            color: #7f8c8d;
+        }
+        
+        .stat-value {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .legend {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        
+        .legend h4 {
+            font-size: 13px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            border: 2px solid rgba(0,0,0,0.2);
+        }
+        
+        .popup-content h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+        
+        .popup-content p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        
+        .popup-content .feature-list {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #eee;
+        }
+        
+        .popup-content .feature-item {
+            margin: 5px 0;
+            font-size: 12px;
+            color: #555;
+        }
+        
+        .popup-content .rarity-score {
+            color: #e74c3c;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .info-panel {
+                max-width: 90%;
+                right: 5%;
+                top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    
+    <div class="info-panel">
+        <h1>Language Weirdness Map</h1>
+        <p>Explore linguistic diversity through feature rarity across 2,600+ languages from the WALS dataset.</p>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="minFeatures">Minimum Features:</label>
+                <input type="range" id="minFeatures" min="10" max="120" value="20" step="1">
+                <span id="minFeaturesValue">10</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="familyFilter">Filter by Family:</label>
+                <select id="familyFilter">
+                    <option value="all">All Families</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <h3>Statistics</h3>
+            <div class="stat-item">
+                <span class="stat-label">Languages shown:</span>
+                <span class="stat-value" id="langCount">-</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Mean weirdness:</span>
+                <span class="stat-value" id="meanWeirdness">-</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Scale range:</span>
+                <span class="stat-value" id="scaleRange">-</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Weirdest language:</span>
+                <span class="stat-value" id="weirdestLang">-</span>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <h4>Weirdness Scale (Dynamic)</h4>
+            <p style="font-size: 11px; color: #7f8c8d; margin-bottom: 10px;">Scale adjusts based on filtered languages</p>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #1ED600;"></div>
+                <span>Normal (0.35-0.45)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #03A1A1;"></div>
+                <span>Moderate (0.45-0.55)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #4A2CE0;"></div>
+                <span>Weird (0.55-0.65)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #c248fa;"></div>
+                <span>Very Weird (0.65+)</span>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        let map;
+        let markers = [];
+        let languageData = [];
+        let currentFilter = {
+            minFeatures: 10,
+            family: 'all'
+        };
+        let colorScale = {
+            min: 0.35,
+            max: 0.75,
+            q1: 0.45,
+            q2: 0.55,
+            q3: 0.65
+        };
+        
+        // Initialize map
+        function initMap() {
+            map = L.map('map').setView([20, 0], 2);
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 18
+            }).addTo(map);
+        }
+        
+        // Calculate dynamic color scale based on filtered data
+        function calculateColorScale(filtered) {
+            if (filtered.length === 0) {
+                return {
+                    min: 0.35,
+                    max: 0.75,
+                    q1: 0.45,
+                    q2: 0.55,
+                    q3: 0.65
+                };
+            }
+            
+            const scores = filtered.map(lang => lang.weirdness).sort((a, b) => a - b);
+            const min = scores[0];
+            const max = scores[scores.length - 1];
+            
+            // Calculate quartiles
+            const q1Index = Math.floor(scores.length * 0.25);
+            const q2Index = Math.floor(scores.length * 0.50);
+            const q3Index = Math.floor(scores.length * 0.75);
+            
+            return {
+                min: min,
+                max: max,
+                q1: scores[q1Index],
+                q2: scores[q2Index],
+                q3: scores[q3Index]
+            };
+        }
+        
+        // Get color based on weirdness score (now using dynamic scale)
+        function getColor(weirdness) {
+            if (weirdness >= colorScale.q3) return '#c248fa';
+            if (weirdness >= colorScale.q2) return '#4A2CE0';
+            if (weirdness >= colorScale.q1) return '#03A1A1';
+            return '#1ED600';
+        }
+        
+        // Create popup content
+        function createPopup(lang) {
+            let html = `
+                <div class="popup-content">
+                    <h3>${lang.name}</h3>
+                    <p><strong>Family:</strong> ${lang.family}</p>
+                    <p><strong>Genus:</strong> ${lang.genus}</p>
+                    <p><strong>Weirdness Score:</strong> <span class="rarity-score">${lang.weirdness.toFixed(4)}</span></p>
+                    <p><strong>Features Analyzed:</strong> ${lang.numFeatures}</p>
+            `;
+            
+            if (lang.topFeatures && lang.topFeatures.length > 0) {
+                html += '<div class="feature-list"><strong>Top Weird Features:</strong>';
+                lang.topFeatures.forEach(feat => {
+                    html += `
+                        <div class="feature-item">
+                            • ${feat.feature}: ${feat.value}
+                            <span class="rarity-score">(${(feat.rarity * 100).toFixed(1)}% rare)</span>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            return html;
+        }
+        
+        // Update markers based on filters
+        function updateMarkers() {
+            // Clear existing markers
+            markers.forEach(marker => map.removeLayer(marker));
+            markers = [];
+            
+            // Filter data
+            const filtered = languageData.filter(lang => {
+                if (lang.numFeatures < currentFilter.minFeatures) return false;
+                if (currentFilter.family !== 'all' && lang.family !== currentFilter.family) return false;
+                return true;
+            });
+            
+            // Calculate dynamic color scale based on filtered data
+            colorScale = calculateColorScale(filtered);
+            
+            // Update legend with new values
+            updateLegend();
+            
+            // Add new markers
+            filtered.forEach(lang => {
+                const marker = L.circleMarker([lang.lat, lang.lon], {
+                    radius: 6,
+                    fillColor: getColor(lang.weirdness),
+                    color: '#fff',
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }).addTo(map);
+                
+                marker.bindPopup(createPopup(lang));
+                markers.push(marker);
+            });
+            
+            // Update stats
+            updateStats(filtered);
+        }
+        
+        // Update statistics display
+        function updateStats(filtered) {
+            document.getElementById('langCount').textContent = filtered.length;
+            
+            if (filtered.length > 0) {
+                const mean = filtered.reduce((sum, lang) => sum + lang.weirdness, 0) / filtered.length;
+                document.getElementById('meanWeirdness').textContent = mean.toFixed(4);
+                
+                // Display scale range
+                document.getElementById('scaleRange').textContent = 
+                    `${colorScale.min.toFixed(3)} - ${colorScale.max.toFixed(3)}`;
+                
+                const weirdest = filtered.reduce((max, lang) => 
+                    lang.weirdness > max.weirdness ? lang : max
+                );
+                document.getElementById('weirdestLang').textContent = weirdest.name;
+            } else {
+                document.getElementById('meanWeirdness').textContent = '-';
+                document.getElementById('scaleRange').textContent = '-';
+                document.getElementById('weirdestLang').textContent = '-';
+            }
+        }
+        
+        // Update legend with dynamic scale values
+        function updateLegend() {
+            const legendItems = document.querySelectorAll('.legend-item span');
+            if (legendItems.length >= 4) {
+                legendItems[0].textContent = `Normal (${colorScale.min.toFixed(2)}-${colorScale.q1.toFixed(2)})`;
+                legendItems[1].textContent = `Moderate (${colorScale.q1.toFixed(2)}-${colorScale.q2.toFixed(2)})`;
+                legendItems[2].textContent = `Weird (${colorScale.q2.toFixed(2)}-${colorScale.q3.toFixed(2)})`;
+                legendItems[3].textContent = `Very Weird (${colorScale.q3.toFixed(2)}+)`;
+            }
+        }
+        
+        // Populate family filter
+        function populateFamilyFilter() {
+            const families = [...new Set(languageData.map(lang => lang.family))].sort();
+            const select = document.getElementById('familyFilter');
+            
+            families.forEach(family => {
+                const option = document.createElement('option');
+                option.value = family;
+                option.textContent = family;
+                select.appendChild(option);
+            });
+        }
+        
+        // Load data and initialize
+        async function loadData() {
+            try {
+                const response = await fetch('language_data.json');
+                languageData = await response.json();
+                
+                populateFamilyFilter();
+                updateMarkers();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                alert('Error loading language data. Make sure language_data.json is in the same directory.');
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('minFeatures').addEventListener('input', (e) => {
+            currentFilter.minFeatures = parseInt(e.target.value);
+            document.getElementById('minFeaturesValue').textContent = e.target.value;
+            updateMarkers();
+        });
+        
+        document.getElementById('familyFilter').addEventListener('change', (e) => {
+            currentFilter.family = e.target.value;
+            updateMarkers();
+        });
+        
+        // Initialize
+        initMap();
+        loadData();
+    </script>
+</body>
+</html>
